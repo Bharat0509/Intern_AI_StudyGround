@@ -1,15 +1,8 @@
 {
   "version": 2,
   "functions": {
-    "api/questions.js": {
+    "api/*": {
       "maxDuration": 60
     }
   },
-
-  "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "/api/$1"
-    }
-  ]
 }
